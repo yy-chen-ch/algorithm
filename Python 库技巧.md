@@ -108,7 +108,6 @@ data.reset_index(drop=True)    # 重置索引,drop:默认为False，不删除原
  **注：Pandas从版本0.20.0开始弃用：推荐的用于表示3D数据的方法是通过DataFrame上的MultiIndex方法 ** 
 
 
-
 ### 文件读取与储存
 
 ```python
