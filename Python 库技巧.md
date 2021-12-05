@@ -128,9 +128,9 @@ df.replace(to_replace=, value=)   # 数据替换
 
 | str           | fuhao          | shizi                             |         |
 | ------------- | -------------- | --------------------------------- | ------- |
-| ndarray.shape | 数组维度的元组 | np.array([[1,2,3],[4,5,6]]).shape | (2,2,3) |
-| ndim          | 维数           |                                   |         |
-| size          | 元素数量       |                                   |         |
+| ndarray.shape | 数组维度的元组   | np.array([[1,2,3],[4,5,6]]).shape | (2,2,3) |
+| ndim          | 维数            |                                    |         |
+| size          | 元素数量         |                                   |         |
 
 
 
