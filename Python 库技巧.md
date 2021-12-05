@@ -22,8 +22,6 @@ plt.title("中午11点--12点某城市温度变化图", fontsize=20)  #标题
 
 NumPy     支持常见的数组和矩阵操作，提供了一个N维数组类型ndarray，它描述了相同类型的“items”的集合。计算时间快
 
-![ndarray](V:\笔记\img\Python使用技巧\ndarray.png)
-
 属性
 
 | 属性          | 属性解释       |                                   |         |
@@ -38,6 +36,7 @@ NumPy     支持常见的数组和矩阵操作，提供了一个N维数组类型
 
 ```Python
 a1 = np.array(a)   a2 = np.asarray(a) # 复制  索引
+numpy.array(object, dtype = None, copy = True, order = None, subok = False, ndmin = 0)
 ```
 
 生成0,1 的数组
@@ -127,6 +126,12 @@ df.replace(to_replace=, value=)   # 数据替换
 ```
 
 
+
+| str           | fuhao          | shizi                             |         |
+| ------------- | -------------- | --------------------------------- | ------- |
+| ndarray.shape | 数组维度的元组 | np.array([[1,2,3],[4,5,6]]).shape | (2,2,3) |
+| ndim          | 维数           |                                   |         |
+| size          | 元素数量       |                                   |         |
 
 
 

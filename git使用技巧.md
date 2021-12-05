@@ -9,6 +9,7 @@ git commit -m "信息"
 git remote -v https://github.com/
 git pull 
 git push -u orgin master
+git push -u orgin main -f     #强行推送
 
 #分支管理
 git branch newbranch
