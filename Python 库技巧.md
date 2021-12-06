@@ -115,7 +115,7 @@ pandas.read_csv(filepath_or_buffer, sep =',', usecols)   # usecols:指定读取�
 DataFrame.to_csv(path_or_buf=None, sep=',', columns=None, header=True, index=True, mode='w', encoding=None)   # mode w 重写 a 追加
 ```
 
-#### 缺失处理
+### 缺失处理
 
 ```python
 pd.isnull(df), pd.notnull(df)  # 断是否含nan
